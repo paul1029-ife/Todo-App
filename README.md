@@ -1,7 +1,3 @@
-Here's a README text for your Todo App with Joke Generation functionality:
-
----
-
 # Todo List & Joke Generator App
 
 This is a simple **Todo List** app built with **React** that allows users to manage their tasks by adding, editing, and deleting items. The app also has a feature to generate random dad jokes from an external API.
