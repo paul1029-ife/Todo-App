@@ -1,9 +1,10 @@
 import TodoList from "./components/TodoList";
 import TodoInput from "./components/TodoInput";
+import API_KEY from "./API"
 import { useEffect, useState } from 'react';
 
 const BASE_URL = 'https://api.api-ninjas.com/v1/dadjokes';
-const API_KEY = 'CN0MYTIPBdgJbiN3fhDyiQ==N3vL0u6FG8CISHN3';  // Your API key here
+const API_KEY = {API_KEY};  // Your API key here
 
 function App() {
   const [input, setInput] = useState("");
